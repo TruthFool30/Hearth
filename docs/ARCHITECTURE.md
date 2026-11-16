@@ -512,8 +512,8 @@ Use a unique port + temp paths per agent. Seeding a running instance is fine (WA
 server with its PID when done (avoid `pkill -f` patterns that also match your own shell).
 
 ```js
-// /tmp/.../shot.mjs — run with `node shot.mjs` from anywhere
-import { chromium } from '/home/user/Claude-Github-Repo/node_modules/playwright/index.mjs';
+// e2e-shots/shot.mjs (git-ignored; inside the repo so the import finds node_modules) — run with `node e2e-shots/shot.mjs`
+import { chromium } from 'playwright';
 const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium' });
 const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
 await ctx.addInitScript(() => localStorage.setItem('hearth-theme', 'dark'));   // 'light' | 'dark' | 'system'

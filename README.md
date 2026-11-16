@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/TruthFool30/Claude-Github-Repo/actions/workflows/ci.yml"><img src="https://github.com/TruthFool30/Claude-Github-Repo/actions/workflows/ci.yml/badge.svg" alt="CI status"></a>
+  <a href="https://github.com/TruthFool30/Hearth/actions/workflows/ci.yml"><img src="https://github.com/TruthFool30/Hearth/actions/workflows/ci.yml/badge.svg" alt="CI status"></a>
   <a href="#run-it-with-node"><img src="docs/badges/node.svg" alt="Node 22.13 or newer"></a>
   <a href="#run-it-with-docker"><img src="docs/badges/docker.svg" alt="Docker ready"></a>
   <a href="#why-hearth"><img src="docs/badges/self-hosted.svg" alt="Self-hosted: your server, your data"></a>
@@ -126,7 +126,7 @@ Open Hearth in your phone's browser and choose **Add to Home Screen**. It instal
 ### Run it with Docker
 
 ```bash
-git clone https://github.com/TruthFool30/Claude-Github-Repo.git hearth && cd hearth
+git clone https://github.com/TruthFool30/Hearth.git && cd Hearth
 docker compose up -d     # builds the image and serves http://localhost:8080
 ```
 
